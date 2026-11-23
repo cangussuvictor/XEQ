@@ -9,7 +9,7 @@ export function Shell({ children }: { children: ReactNode }) {
   return (
     <div className="flex min-h-screen">
       <aside className="hidden w-60 shrink-0 flex-col bg-sidebar p-6 text-sidebar-foreground md:flex">
-        <div className="font-display text-2xl">Lumen<span className="text-sidebar-primary">.</span>RCM</div>
+        <div className="font-display text-2xl">XEQ<span className="text-sidebar-primary">.</span></div>
         <p className="mt-1 text-xs opacity-60">Ciclo de receita cirúrgico</p>
         <nav className="mt-10 flex flex-col gap-1">
           {nav.map((n) => (

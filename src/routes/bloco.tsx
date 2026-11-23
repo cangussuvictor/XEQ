@@ -4,9 +4,9 @@ import { agenda, cancelamentos, checklistLabels, riskScore, SALA_JANELA, TURNOVE
 
 export const Route = createFileRoute("/bloco")({
   head: () => ({ meta: [
-    { title: "Bloco cirúrgico — Lumen RCM" },
+    { title: "Bloco cirúrgico — XEQ" },
     { name: "description", content: "Risco de cancelamento, ocupação de salas e encaixes no bloco cirúrgico." },
-    { property: "og:title", content: "Bloco cirúrgico — Lumen RCM" },
+    { property: "og:title", content: "Bloco cirúrgico — XEQ" },
     { property: "og:description", content: "Risco de cancelamento, ocupação de salas e encaixes no bloco cirúrgico." },
   ] }),
   component: Bloco,

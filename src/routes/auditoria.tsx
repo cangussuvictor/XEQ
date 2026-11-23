@@ -5,9 +5,9 @@ import { brl, cases, glosaRisk, leakage, statusOf, type ItemStatus } from "../li
 
 export const Route = createFileRoute("/auditoria")({
   head: () => ({ meta: [
-    { title: "Auditoria de contas — Lumen RCM" },
+    { title: "Auditoria de contas — XEQ" },
     { name: "description", content: "Cruzamento do prontuário com a conta do paciente para captura de cobranças." },
-    { property: "og:title", content: "Auditoria de contas — Lumen RCM" },
+    { property: "og:title", content: "Auditoria de contas — XEQ" },
     { property: "og:description", content: "Cruzamento do prontuário com a conta do paciente para captura de cobranças." },
   ] }),
   component: Auditoria,

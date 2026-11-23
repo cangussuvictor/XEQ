@@ -4,9 +4,9 @@ import { agenda, brl, cancelamentos, cases, glosaRisk, leakage, riskScore } from
 
 export const Route = createFileRoute("/")({
   head: () => ({ meta: [
-    { title: "Visão geral — Lumen RCM" },
+    { title: "Visão geral — XEQ" },
     { name: "description", content: "Receita recuperada, risco de glosa e eficiência do bloco cirúrgico." },
-    { property: "og:title", content: "Visão geral — Lumen RCM" },
+    { property: "og:title", content: "Visão geral — XEQ" },
     { property: "og:description", content: "Receita recuperada, risco de glosa e eficiência do bloco cirúrgico." },
   ] }),
   component: Index,
